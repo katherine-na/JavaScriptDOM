@@ -86,3 +86,33 @@ ul.childNodes[1].style.backgroundColor = "blue";
 ## Sibling Node Traversal
 
 ## Events
+
+Syntax:
+
+```js
+element.addEventListner("click", function)
+```
+
+Example:
+
+```js
+const button = document.querySelector(".btn");
+
+const alertBtn = () => {
+  alert(`I dont like JavaScript, its so hard!`);
+};
+
+button.addEventListener("click", alerBtn);
+```
+
+### Mouseover Event
+
+```js
+const nav = document.querySelector("#nav");
+
+const newBackgroundColorNav = () => {
+  nav.style.backgroundColor = "Blue";
+};
+
+nav.addEventListner("mouseover", newBackgroundColorNav);
+```
