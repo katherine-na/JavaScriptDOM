@@ -47,8 +47,42 @@ const ul = document.querySelector("ul");
 const li = document.createElement("li");
 ```
 
-Adding elements using `append`
+## Adding Elements
 
 ```js
 ul.append(li);
 ```
+
+## Modify Text
+
+- innerText
+- textContent
+- innerHTML
+
+Example
+
+```js
+li.innerText = "Star Wars";
+```
+
+## Modifying Elements Attributes & Classes
+
+## Parent Node Traversal
+
+## Child Node Traversal
+
+- childNodes
+- firstChild
+- lastChild
+
+Example:
+
+```js
+let ul = document.querySelector("ul");
+
+ul.childNodes[1].style.backgroundColor = "blue";
+```
+
+## Sibling Node Traversal
+
+## Events
