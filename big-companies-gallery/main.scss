@@ -7,15 +7,15 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
-.company .company-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  .company-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 img {
   width: 450px;
   height: 380px;
   margin: 50px;
-}/*# sourceMappingURL=main.css.map */
+}
