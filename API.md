@@ -1,13 +1,35 @@
 ## Consuming data from API
 
+## Callbacks
+
+Una función callback es una función de primer nivel, se pasa a otra función como variable y ésta es ejecutada en algún punto de la ejecución de la función que la recibe.
+
 ## Que es programación Asíncrona en JS
 
 Es un lenguaje de programación de un sólo subproceso o hilo, lo que significa que sólo puede ejecutar una cosa a la vez.
 Normalmente, el código de un programa determinado se ejecuta directamente, y solo sucede una cosa a la vez. Si una función se basa en el resultado de otra función, tiene que esperar a que la otra función termine y regrese, y hasta que eso suceda, todo el programa se detiene esencialmente desde la perspectiva del usuario.
 
+En el caso asícrono, algunas de las instrucciones se ejecutarán a destiempo.
+
+```js
+console.log('Primero');
+setTimeout(\_ => {
+console.log('Segundo');
+},10);
+console.log('Tercero');
+```
+
 ## Que es programación Sincrona en JS
 
 En un modelo de programación sincrónico, las cosas suceden una a la vez. Cuando llamas a una función que realiza una acción de larga duración, solo retorna cuando la acción ha terminado y puede retornar el resultado. Esto detiene tu programa durante el tiempo que tome la acción.
+
+Cada instrucción se ejecutará en secuencia hasta terminar.
+
+```js
+console.log("Primero");
+console.log("Segundo");
+console.log("Tercero");
+```
 
 ### Síncrono y Asíncrono
 
@@ -40,14 +62,26 @@ const myPromise = new Promise((resolve, reject) => {
 });
 ```
 
+## Metodo .then()
+
 El método `then`, se ejecuta inmediatamente después de que tu promesa se cumple con resolve
 
 ```js
 myPromise.then((result) => {});
 ```
 
+## Metodo .catch()
+
 `Catch` es el método utilizado cuando tu promesa ha sido rechazada. Se ejecuta inmediatamente, después de que se llama al método reject de una promesa.
 
 ```js
 myPromise.catch((error) => {});
 ```
+
+## GET
+
+## POST
+
+## UPDATE
+
+## DELETE
