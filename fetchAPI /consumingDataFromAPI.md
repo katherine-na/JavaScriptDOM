@@ -2,7 +2,7 @@
 
 ## Callbacks
 
-Una función callback es una función de primer nivel, se pasa a otra función como variable y ésta es ejecutada en algún punto de la ejecución de la función que la recibe.
+Una función Callback se pasa como función a otra variable y se ejecuta en algun punto de la funcion que la recibe.
 
 ## Que es programación Asíncrona en JS
 
@@ -35,10 +35,6 @@ console.log("Tercero");
 
 Síncrono: La respuesta sucede en el presente, una operación síncrona esperará el resultado.  
 Asíncrono: La respuesta sucede a futuro, una operación asíncrona no esperará el resultado.
-
-## Que es un callback en JS
-
-Los callbacks en JavaScript representan el uso de funciones como parámetros de otras funciones.
 
 ## Que es es una promesa en JS?
 
