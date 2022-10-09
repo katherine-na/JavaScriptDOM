@@ -82,14 +82,6 @@ myPromise.catch((error) => {});
 
 Los datos pueden ser recibidos usando el método GET.
 
-Sintaxis
-
-```js
-{get prop() { . . . } }
-
-
-```
-
 ## POST
 
 Los datos pueden ser enviados usando el método POST.
