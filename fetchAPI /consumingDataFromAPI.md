@@ -12,11 +12,11 @@ Normalmente, el código de un programa determinado se ejecuta directamente, y so
 En el caso asícrono, algunas de las instrucciones se ejecutarán a destiempo.
 
 ```js
-console.log('Primero');
-setTimeout(\_ => {
-console.log('Segundo');
-},10);
-console.log('Tercero');
+console.log("Primero");
+setTimeout(() => {
+  console.log("Segundo");
+}, 10);
+console.log("Tercero");
 ```
 
 ## Que es programación Sincrona en JS
